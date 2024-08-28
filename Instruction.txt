@@ -9,3 +9,5 @@ python -m PyInstaller --onefile --windowed --name="NewName" --icon="icon.ico" Ke
 After the exceution of the following command this will create a dist Directory containing the exccutable file.
 
 just share that .exe file. After the programs run sucessfully this will give you a .txt file which store the all data.
+
+############# ESC key will terminate the program. ################33
